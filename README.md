@@ -2,11 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Steps to run
 
-In the project directory, you can run:
+### 1. `npm install` or `yarn`
 
-### `yarn start`
+To install all the dependencies
+
+### 2. `npm start` or `yarn start`
+
+To start the development server
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
