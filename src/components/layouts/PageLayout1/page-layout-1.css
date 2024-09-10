@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .grid-areas-header-sidebar-main {
+    grid-template-areas:
+      'header'
+      'main';
+  }
+  aside {
+    position: absolute;
+    transform: translate(-100%, 0);
+    transition: 0.4s ease-in-out;
+    height: 100vh;
+    background: #fff;
+    width: 70%;
+    z-index: 10000;
+  }
+  aside.active {
+    transform: translate(0%, 0);
+  }
+
+  @media (min-width: 640px) {
+    .grid-areas-header-sidebar-main {
+      grid-template-areas:
+        'header header'
+        'sidebar main';
+    }
+    aside {
+      position: static;
+      transform: translate(0%, 0);
+      transform: 0.4s ease-in-out;
+      height: auto;
+      width: auto;
+    }
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+  .bg-tomato {
+    background-color: tomato;
+  }
+  .bg-dodgerblue {
+    background-color: dodgerblue;
+  }
+}
