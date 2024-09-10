@@ -28,11 +28,11 @@ const ContactsDashboard = () => {
         </NavLink>
       </div>
       {contactList.length === 0 ? (
-        <div className="flex items-center w-2/4 border-2 border-black m-auto py-2">
-          <div className="p-4">
+        <div className="p-4 flex items-center w-full md:w-3/4 lg:w-2/4 border-2 border-black m-auto py-2">
+          <div className="pr-4">
             <FontAwesomeIcon size="3x" icon={faCircleXmark} />
           </div>
-          <span className="text-2xl text-left">
+          <span className="text-xl md:text-2xl text-left">
             No contact found please add contact from create contact button
           </span>
         </div>
