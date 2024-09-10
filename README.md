@@ -18,8 +18,8 @@ You will also see any lint errors in the console.
 
 ## https://disease.sh/v3/covid-19/historical/all?lastdays=all
 
-below api end point returns us covid data by dates in format <date: number of cases>
+API endpoint returns us covid data by dates in format <date: number of cases>
 
 ## https://disease.sh/v3/covid-19/countries
 
-below api end point returns us covid data by country in detailed format which includes countinfo,latitude, longitude, active cases, recovered, deaths etc
+API endpoint returns us covid data of all countries in detailed format which includes countinfo,latitude, longitude, active cases, recovered, deaths etc
